@@ -105,7 +105,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>D:\IBARBIA, KARINA ESTHER R._BSCPE\RPGFINAL\TurnBasedRPG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\CAT COLLEGE LEGAZPI\source\repos\TurnBasedConsoleRPG\TURNEDBASEDRPG2\TurnBasedRPG</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,7 +128,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\TurnBasedRPG\Character.cpp" />
+    <ClCompile Include="..\TurnBasedRPG\Enemy.cpp" />
+    <ClCompile Include="..\TurnBasedRPG\Player.cpp" />
+    <ClCompile Include="TestCharacter.cpp" />
     <ClCompile Include="TestEnemy.cpp" />
+    <ClCompile Include="TestPlayer.cpp" />
     <ClCompile Include="turnbaseRPG_tests.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
